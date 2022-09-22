@@ -27,3 +27,9 @@ header nav ul{
   list-style: none;
 }
 
+
+/* FOOTER */
+
+footer{
+  height: 70px;
+}
