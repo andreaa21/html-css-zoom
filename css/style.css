@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+  width: 100%;
+  display: block;
+}
+
+
 /* UTILITIES */
 
 .debug{
@@ -37,6 +47,19 @@ header nav ul{
 
 main{
   height: calc(100vh - 140px);
+}
+
+main .user{
+  position: relative;
+}
+
+main .user .name{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: gray;
+  color: white;
+  padding: 5px;
 }
 
 
