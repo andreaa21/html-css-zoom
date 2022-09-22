@@ -28,6 +28,13 @@ header nav ul{
 }
 
 
+/* MAIN */
+
+main{
+  height: calc(100vh - 130px);
+}
+
+
 /* FOOTER */
 
 footer{
