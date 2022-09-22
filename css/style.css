@@ -25,17 +25,31 @@ img{
   display: flex;
 }
 
+.f-end{
+  justify-content: flex-end;
+}
+
+.space-btw{
+  justify-content: space-between;
+}
+
+.align-center{
+  align-items: center;
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
+
 .container{
   margin: 0 auto;
-  width: 90%;
+  width: 95%;
 }
 
 /* HEADER */
 
 header{
   height: 70px;
-  justify-content: flex-end;
-  align-items: center;
 }
 
 header nav ul{
@@ -67,8 +81,6 @@ main .user .name{
 
 footer{
   height: 70px;
-  justify-content: space-between;
-  align-items: center;
 }
 
 footer ul{
