@@ -45,6 +45,13 @@ header, main, footer{
   flex-wrap: wrap;
 }
 
+.btn{
+  background-color: rgba(160, 160, 160, 0.527);
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+
 .container{
   margin: 0 auto;
   width: 90%;
@@ -59,6 +66,10 @@ header{
 
 header nav ul{
   list-style: none;
+}
+
+header nav li{
+  margin: 0 5px;
 }
 
 
