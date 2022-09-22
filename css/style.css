@@ -45,6 +45,10 @@ header, main, footer{
   flex-wrap: wrap;
 }
 
+.pd-top{
+  padding-top: 20px;
+}
+
 .btn{
   background-color: rgba(160, 160, 160, 0.527);
   padding: 5px;
@@ -84,6 +88,7 @@ main{
 main .user{
   position: relative;
   margin-top: 5px;
+  width: calc(98% / 7);
 }
 
 main .user .name{
@@ -91,7 +96,6 @@ main .user .name{
   bottom: 0;
   left: 0;
   background-color: gray;
-  /* color: white; */
   padding: 5px;
 }
 
