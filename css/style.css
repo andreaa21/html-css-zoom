@@ -133,3 +133,10 @@ footer .chevron{
   font-size: 0.8rem;
 }
 
+footer button{
+  height: 100%;
+  color: red;
+  background-color: rgba(160, 160, 160, 0.527);
+  padding: 0 20px;
+}
+
