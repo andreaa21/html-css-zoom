@@ -105,4 +105,31 @@ footer{
 
 footer ul{
   list-style: none;
+  height: 100%;
 }
+
+footer ul li{
+  height: 100%;
+  margin:0 30px 0 10px;
+}
+
+footer .li-content{
+  margin-right: 15px;
+  text-align: center;
+  flex-direction: column;
+}
+
+footer .li-content i{
+  display: block;
+  font-size: 1.5rem;
+}
+
+footer .li-content span{
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
+
+footer .chevron{
+  font-size: 0.8rem;
+}
+
